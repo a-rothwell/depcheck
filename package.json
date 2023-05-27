@@ -1,6 +1,6 @@
 {
   "name": "arothwell-ci-test-depcheck",
-  "version": "1.2.3",
+  "version": "99.98.86",
   "description": "Check dependencies in your node module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
