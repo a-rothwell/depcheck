@@ -44,7 +44,7 @@ jobs:
 
       - name: build, bump version and publish
         run: |
-          npm prepublishOnly
+          npm run prepublishOnly
           npm version ${{ github.ref_name }} --no-git-tag-version
           npm publish
         env:
